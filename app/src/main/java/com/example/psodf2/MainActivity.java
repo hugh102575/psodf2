@@ -25,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String base_url="https://895e-61-220-205-150.ngrok.io";
+    private String base_url="https://49ce-61-220-205-150.ngrok.io";
     //public String base_url="http://yes-shop.yesinfo.com.tw/";
     private EditText eEmail;
     private EditText ePassword;
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         //app_title.setText("安親班點名系統");
         setTitle("安親班點名系統");
 
-        //eEmail.setText("danny102575@gmail.com");
-        //ePassword.setText("Neko!123");
+        eEmail.setText("danny102575@gmail.com");
+        ePassword.setText("Neko!123");
 
         Retrofit retrofit =new Retrofit.Builder()
                 .baseUrl(base_url)
